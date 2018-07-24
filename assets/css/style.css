@@ -1,0 +1,200 @@
+/*Style html*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*Style body*/
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/spiration-light.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/*Style navbar*/
+
+.navbar-collapse.collapse {
+    background-color: green;
+    border-bottom: 50px;
+    border-bottom-color: yellowgreen;
+    border-bottom: solid;
+       display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar.navbar-default.navbar-static-top {
+    border-bottom: 50px;
+    border-bottom-color: yellowgreen;
+    border-bottom: solid;
+}
+
+/*Style navbar header*/
+
+.navbar-header {
+    height: 100%;
+    font-size: 40px;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    margin: 30px;
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 40%;
+}
+
+/*Style inline list*/
+
+ul.nav.navbar-nav.navbar-right {
+    height: 100%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 40%;
+}
+
+a:hover,
+a:focus {
+    color: yellowgreen !important;
+}
+
+/*Style a href*/
+
+a {
+    color: black;
+    font-size: 150%;
+    padding: 40%;
+  
+}
+
+/*Style container*/
+
+.container {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 0px;
+    width: 960px;
+}
+
+/*Style conheader*/
+
+.conheader {
+    color: green;
+}
+
+hr {
+    color:yellow;
+    font-size: 2px;
+    width: 100%;
+}
+
+
+/*Style Content*/
+
+img {
+ 
+    border-color: rgb(255, 251, 0);
+    border: .5px solid;
+    width: 20%;
+    padding: 10px;
+    float: left;
+}
+
+.text {
+       color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: -13px;
+  
+
+    width: 100%;
+   
+}
+
+
+
+.btn {
+    background-color: green;
+    color: whitesmoke;
+    border: 3px solid green;
+    margin: 20px;
+    display: inline;
+}
+
+.btn:hover,
+.btn:focus{
+    color: yellowgreen !important;
+    border: 1px solid yellowgreen !important;
+
+}
+
+/*Style footer*/
+
+.container-fluid {
+        background: green;
+    border-top: 4px solid yellowgreen;
+    padding: 0px;
+    width: 960px;
+}
+
+p.text-center {
+    font-size: x-small;
+    color: yellowgreen;
+    text-align: center;
+    float: left;
+    margin-top: 2%;
+    
+}
+
+.text-center.icons {
+    text-align: center;
+    font-size: x-small;
+    color: yellowgreen;
+    clear: float;
+    float: right;
+    padding: 0px;
+    margin: auto;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+
+}
+
+
+
+
+/*Style submit button*/
+
+button {
+    margin: 7px;
+}
+
+/*Style col-sm-8 pull left*/
+
+.col-sm-8 {
+    margin: 10px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/*Style col-sm-4 pull right*/
+
+.col-sm-4 {
+    margin: 10px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/*Style thumbnail*/
+
+.thumbmails {
+    border: 1px solid #ffffff;
+}

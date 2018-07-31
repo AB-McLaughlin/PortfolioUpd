@@ -1,0 +1,36 @@
+.form-area {
+    background-color: #ffffff;
+    padding: 10px 40px 60px;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-bottom: 16%;
+    margin-left: 100%;
+    border: 3px solid yellowgreen;
+    width: 80%;
+
+}
+
+.form-group {
+    border: 1px solid yellowgreen;
+    color: green;
+}
+
+.form-control {
+    color: green;
+    border: 1px solid yellowgreen;
+    border-radius: 0px;
+}
+
+#submit {
+    margin: 7px;
+    background-color: green;
+    color: black;
+    border: 1px solid green;
+}
+
+#submit:hover,
+#submit:focus {
+    color: yellowgreen !important;
+    border: 1px solid yellowgreen;
+}
+

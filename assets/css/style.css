@@ -10,7 +10,7 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background-image: url("../../images/bground2.jpeg");
+    background-image: url("../images/bground2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,64 +145,4 @@ p.text-center {
     margin-left: 2%;
     color: yellowgreen;
     font-size: x-small;
-}
-
-/*Style contact.html*/
-
-.form-area {
-    background-color: #ffffff;
-    padding: 10px 40px 60px;
-    margin: 10px 0px 60px;
-    border: 3px solid yellowgreen;
-    width: 80%;
-    float: right;
-    clear: float;
-}
-
-.form-group {
-    border: 1px solid yellowgreen;
-    color: green;
-}
-
-.form-control {
-    color: green;
-    border: 1px solid yellowgreen;
-    border-radius: 0px;
-}
-
-#submit {
-    margin: 7px;
-    background-color: green;
-    color: black;
-    border: 1px solid green;
-}
-
-#submit:hover,
-#submit:focus {
-    color: yellowgreen !important;
-    border: 1px solid yellowgreen;
-}
-
-/*Style portfolio.html*/
-
-.pf {
-    color: green;
-    font-size: 100%;
-    padding: 10px;
-    float: right;
-    clear: float;
-}
-
-.pf:hover,
-.pf:focus {
-    color: yellowgreen !important;
-}
-
-.thumbnail {
-    border: 1px solid #ffffff;
-}
-
-p{
-    width: 40%;
-    margin-right: 5px;
 }
